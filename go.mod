@@ -1,3 +1,3 @@
-rm go.mod
-go mod init github.com/fazrilramadhan/bitcoin-go
-go mod tidy
+module github.com/fazrilrama/bitcoin-go
+
+go 1.24.3

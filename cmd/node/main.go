@@ -4,7 +4,7 @@ import (
     "fmt"
     "os"
 
-    "bitcoin-go/internal/blockchain"
+    "github.com/fazrilrama/bitcoin-go/internal/blockchain"
 )
 
 func main() {

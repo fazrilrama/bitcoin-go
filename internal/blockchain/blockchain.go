@@ -3,7 +3,7 @@ package blockchain
 import (
     "fmt"
 
-    "bitcoin-go/internal/block"
+    "github.com/fazrilrama/bitcoin-go/internal/block"
 )
 
 type Blockchain struct {
