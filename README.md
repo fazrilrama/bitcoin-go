@@ -39,28 +39,6 @@ Project ini dibangun untuk mempelajari konsep fundamental Bitcoin seperti blockc
 
 ---
 
-## 📂 Struktur Direktori
-
-bitcoin-go/
-├── cmd/
-│   └── node/
-│       └── main.go
-│
-├── internal/
-│   ├── blockchain/
-│   │   ├── blockchain.go
-│   │   ├── block.go
-│   │   └── pow.go
-│   │
-│   └── utils/
-│       ├── hash.go
-│       └── encoder.go
-│
-├── go.mod
-├── go.sum
-└── README.md   ← (file ini)
-
-
 ## Instalasi & Setup
 - Clone repository:
     - git clone https://github.com/fazrilrama/bitcoin-go.git
