@@ -47,7 +47,7 @@ func (pow *ProofOfWork) prepareData(nonce int) []byte {
     return bytes.Join(
         [][]byte{
             pow.Block.PrevHash,
-            pow.Block.Data,
+            pow.Block.MerkleRoot,
             []byte(fmt.Sprintf("%d", pow.Block.Timestamp)),
             []byte(fmt.Sprintf("%d", nonce)),
         },
